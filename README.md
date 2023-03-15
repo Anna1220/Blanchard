@@ -1,1 +1,1 @@
-# Blanchard
+# diplom-skillbox

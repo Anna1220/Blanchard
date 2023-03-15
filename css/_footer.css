@@ -1,0 +1,42 @@
+.footer {
+  background-color: var(--black)
+}
+
+.footer__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0
+}
+
+.footer__logo .logo__image {
+  width: 173px
+}
+
+.footer__soc {
+  height: 45px
+}
+
+.footer__svg {
+  width: 45px;
+  height: 45px
+}
+
+.footer__svg path:hover {
+  fill: var(--white);
+  cursor: pointer;
+  transition: fill var(--middle);
+}
+
+.footer__svg path:focus {
+  fill: var(--white);
+  cursor: pointer;
+  transition: fill var(--middle);
+}
+
+.footer__svg path:active {
+  fill: var(--violet-middle);
+  cursor: pointer;
+  transition: fill var(--middle);
+}

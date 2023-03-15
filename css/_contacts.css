@@ -1,0 +1,102 @@
+.contacts {
+  padding: 26px 0;
+  border: 1px solid var(--light-middle-gray)
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+.contacts-title {
+  margin: 0 0  1px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+}
+
+.contacts__title-click {
+  margin: 0 0 8px;
+  padding-top: 9px;
+  letter-spacing: 0;
+}
+
+.contact-form__form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 0 80px
+}
+
+.contact-form__input {
+  width: 270px;
+  margin-right: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  border: 1px solid var(--dark);
+  border-radius: 100px;
+  color: var(--dark)
+}
+
+.contact-form__name {
+  padding: 8px 97px 8px 24px
+}
+
+.contact-form__tel {
+  padding: 8px 33px 8px 24px
+}
+
+.contact-form__input::placeholder {
+  color: var(--middle-gray)
+}
+
+.contact-form__input:hover {
+  background-color: var(--light-ultra-gray)
+}
+
+.contact-form__input:focus {
+  background-color: var(--white)
+}
+
+.telegram-svg,
+.whatsapp-svg {
+  width: 40px;
+  height: 40px;
+  transition: opacity var(--middle), border var(--middle)
+}
+
+.telegram-svg:focus,
+.telegram-svg:hover,
+.whatsapp-svg:focus,
+.whatsapp-svg:hover {
+  opacity: .5;
+  transition: opacity var(--middle);
+}
+
+.telegram-svg:active,
+.whatsapp-svg:active {
+  opacity: 1;
+  border: 1px solid var(--violet);
+  border-radius: 50%
+}
+
+.form-btn-desc {
+  display: block;
+}
+
+.form-btn-mob {
+  display: none
+}
+
+.form-col {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.just-validate-error-label {
+  padding-left: 24px;
+}
